@@ -8,7 +8,7 @@ const getMovies = async () => {
     return response.data as IMoviesComing[];
 };
 
-const getMovieById = async ( id: number | string ) => {
+ const getMovieById = async ( id: number | string ) => {
     const response = await axios.get( `${apiBaseUrl}/movies-coming/${id}` );
     return response.data as IMoviesComing;
 };
