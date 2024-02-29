@@ -19,7 +19,7 @@ const sizeMap = {
         width: '4rem',
         height: '4rem'
     }
-}
+ }
 
 const LoadingIndicator = ( { size, message } : Props ) => {
     return (
