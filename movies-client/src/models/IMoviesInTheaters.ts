@@ -1,4 +1,4 @@
-export default interface IMoviesInTheaters {
+ export default interface IMoviesInTheaters {
   id: string,
   title: string,
   year: string,
