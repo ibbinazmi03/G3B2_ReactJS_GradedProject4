@@ -1,4 +1,4 @@
-export default interface IFavourites {
+ export default interface IFavourites {
     id: string,
     title: string,
     year: string,
