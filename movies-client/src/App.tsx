@@ -6,7 +6,7 @@ import ComingSoonPage from "./pages/ComingSoonPage";
 function App() {
   return (
       <>
-        <NavigationMenu />
+        <NavigationMenu /> 
 
         <Container className="my-4">
           <Routes>
