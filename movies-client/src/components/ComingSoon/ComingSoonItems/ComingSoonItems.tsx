@@ -5,7 +5,7 @@ import IMoviesComing from "../../../models/IMoviesComing";
 const apiBaseUrl = process.env.REACT_APP_API_BASE_URL;
 
 type Props = {
-    ComingSoon: IMoviesComing;
+     ComingSoon: IMoviesComing;
 };
 
 const MovieListItem = ({ ComingSoon }: Props) => {
