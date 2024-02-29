@@ -1,4 +1,4 @@
-export default interface ITopRatedIndia {
+ export default interface ITopRatedIndia {
     id: string,
     title: string,
     year: string,
