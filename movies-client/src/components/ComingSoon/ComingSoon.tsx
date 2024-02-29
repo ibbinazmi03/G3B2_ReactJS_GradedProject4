@@ -10,7 +10,7 @@ const ComingSoon = () => {
     const [ error, setError ] = useState<null | Error>( null );
     const [ loading, setLoading ] = useState( true );
 
-    useEffect(
+     useEffect(
         () => {
             const helper = async () => {
                 try {
