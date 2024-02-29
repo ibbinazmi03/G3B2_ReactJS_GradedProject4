@@ -1,4 +1,4 @@
-export default interface IMoviesComing {
+ export default interface IMoviesComing {
   id: number,
   title: string,
   year: string,
